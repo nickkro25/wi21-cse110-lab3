@@ -150,9 +150,9 @@ details[open] summary {
      </header>
     
     <main>
-      <input class="styled"
+      <button class="favorite styled"
         type="button">
-    Click me!
+    I do nothing
 </button>
 	    
       <h1>Introduction to Nick</h1>
@@ -367,10 +367,56 @@ Mallard...
 	  
 	<input type="color" id="head" name="head"
            value="#e66465">
-    <label for="head">Head</label>
+    <label for="head">Color picker!</label>
 	  
 	  <hr>
-	  
+	  <p>Choose your monster's features:</p>
+
+<div>
+  <input type="checkbox" id="scales" name="scales"
+         checked>
+  <label for="scales">Scales</label>
+</div>
+
+<div>
+  <input type="checkbox" id="horns" name="horns">
+  <label for="horns">Horns</label>
+</div>
+	  <hr>
+	  <label for="start">Start date:</label>
+
+<input type="date" id="start" name="trip-start"
+       value="2018-07-22"
+       min="2018-01-01" max="2018-12-31">
+	  <hr>
+	  <label for="tentacles">Number of tentacles (10-100):</label>
+
+<input type="number" id="tentacles" name="tentacles"
+       min="10" max="100">
+
+	  <hr>
+	  <p>Audio settings:</p>
+
+<div>
+  <input type="range" id="volume" name="volume"
+         min="0" max="11">
+  <label for="volume">Volume</label>
+</div>
+
+<div>
+  <input type="range" id="cowbell" name="cowbell" 
+         min="0" max="100" value="90" step="10">
+  <label for="cowbell">Cowbell</label>
+</div>
+
+	  <hr>
+	  <label for="appt">Choose a time for your meeting:</label>
+
+<input type="time" id="appt" name="appt"
+       min="09:00" max="18:00" required>
+
+<small>Office hours are 9am to 6pm</small>
+	  <hr>
       <picture>
     <source srcset="waves2.jpg"
             media="(min-width: 800px)">
