@@ -21,7 +21,23 @@
       link {
         display: none;
       }
+	    
+	form.form-example {
+	    display: table;
+	}
 
+	div.form-example {
+	    display: table-row;
+	}
+
+	label, input {
+	    display: table-cell;
+	    margin-bottom: 10px;
+	}
+
+	label {
+	    padding-right: 10px;
+	}
      
     </style> 
   </head>
@@ -59,6 +75,8 @@
       
       <hr>
       
+	    
+	    
       <section>
         <h3>Quick facts about him</h3>
         <p>My favorite color is <span style="color:green">green!!!</span> </p>
@@ -135,7 +153,22 @@
   <li><a href="tel:+8675309">Phone</a></li>
     </ul>
     <p> PS, the above is a fake phone number, <em> please do not </em> call it.. or do, I am only text </p>
-    
+
+	  
+<form action="" method="get" class="form-example">
+  <div class="form-example">
+    <label for="duck">Enter your favorite duck: </label>
+    <input type="text" name="duck" id="duck" required>
+  </div>
+  <div class="form-example">
+    <label for="quack">quack: </label>
+    <input type="quack" name="quack" id="quack" required>
+  </div>
+  <div class="form-example">
+    <input type="submit" value="Do Nothing!">
+  </div>
+</form>
+	  
       <hr>
       
       <picture>
