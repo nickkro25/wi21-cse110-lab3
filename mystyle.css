@@ -3,6 +3,16 @@ h1[target]{
   background-color: hsl(120, 60%, 70%);
 }
 
+body {
+  background-color: pink;
+}
+
+@media screen and (min-width: 500px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
 #para1 {
   text-align: center;
   color: red;
