@@ -30,6 +30,7 @@ p {
 
 div:hover p {
   display: block;
+  color: #ff0000;
 }
 
 section h2 {
@@ -46,6 +47,14 @@ section > p {
 
 a {
   display: block;
+}
+
+a.highlight:hover {
+  color: #ff0000;
+} 
+
+a:active {
+  background-color: yellow;
 }
 
 ol ~ li {
