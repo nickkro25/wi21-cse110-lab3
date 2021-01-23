@@ -44,6 +44,9 @@ section > p {
   background-color: orange;
 }
 
+a {
+  display: block;
+}
 
 ol ~ li {
   background-color: green;
