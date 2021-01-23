@@ -1,17 +1,18 @@
 h1[target]{
   color:green;
-  background-color: blue;
+  background-color: hsl(120, 60%, 70%);
 }
 
 #para1 {
   text-align: center;
   color: red;
+  background-color: rgba(0, 255, 0, 0.3);
   text-decoration: line-through;
 }
 
 .center {
   text-align: center;
-  color: red;
+  color: #013256;
 }
 
 * {
