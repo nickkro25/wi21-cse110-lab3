@@ -58,7 +58,22 @@ td {
         margin: 2px; 
         font-size: 1mm; 
       } 
+	div.relative {
+	  position: relative;
+	  width: 400px;
+	  height: 200px;
+	  border: 3px solid #73AD21;
+	} 
 
+	div.absolute {
+	  position: absolute;
+	  top: 80px;
+	  right: 0;
+	  width: 200px;
+	  height: 100px;
+	  border: 3px solid #73AD21;
+	}
+	    
       .small-pic {
         width: 2cm;
       }
@@ -447,7 +462,9 @@ Mallard...
       <li><a href="about.html">about</a></li>
   </ul>
 </nav>
-	  
+	<div class="relative">This div element has position: relative;
+  <div class="absolute">This div element has position: absolute;</div>
+</div>  
     </main>
   <h3> pacman </h3>
    <svg viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg" stroke="black" fill="yellow">
